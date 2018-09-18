@@ -155,3 +155,18 @@ Iterate over the following columns: ['Race', 'Gender', 'Ten-Year Age Groups']. W
 ```python
 #Your code here
 ```
+
+### Combining Features
+
+We can further expand upon our exploration above by testing multiple features against each other!
+Complete the code below to print any combination of features where the correlation between population and death is below .95 (or some other appropriate threshold).
+
+
+```python
+#This could also be accomplished with the combinations() method from the itertools package.
+for n, feat1 in enumerate(features):
+    for feat2 in features[n:]:
+        #Your code here
+        #groupby feat1 and feat2!!
+        #repeat your code above to check if the correlation is below a [high] threshold.
+```
